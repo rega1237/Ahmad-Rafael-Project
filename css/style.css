@@ -2,6 +2,12 @@
     font-family: sans-serif;
 }
 
+@media only screen and (max-width: 600px){
+body {
+    margin: 0;
+    padding: 0;
+}}
+
 body {
     margin: 0;
     padding: 0;
@@ -49,3 +55,26 @@ body {
     
 }
 
+#projects{
+    padding: 50px 0px;
+    text-align: center;
+    background-color: #45567d;
+}
+
+#projects-show{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.project{
+    text-align: center;
+    padding-left: 20px;
+    display: block;
+}
+
+.project a{
+
+    text-decoration: none;
+    color: white;
+}
