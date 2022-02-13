@@ -75,8 +75,17 @@ body {
     display: block;
 }
 
-.project a, .profile-link{
-
+.project a, #profile-link{
     text-decoration: none;
     color: white;
+}
+
+.profilesSection{
+    margin: 50px 0;
+}
+
+.profileImage{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
 }
