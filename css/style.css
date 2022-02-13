@@ -1,3 +1,31 @@
+*{
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    text-align: right;
+    background: rgb(221, 96, 96);
+    margin: 0;
+    padding: 20px;
+}
+  
+#navbar li {
+    padding: 0 10px;
+    list-style-type: none;
+    display: inline;
+}
+
+#navbar li a {
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
 #welcome-section{
     height: 100vh;
     background-color: #000000;
